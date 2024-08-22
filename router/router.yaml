@@ -11,6 +11,9 @@ sandbox:
 homepage:
   enabled: false
 
+limits:
+  max_depth: 5
+
 cors:
   origins:
     - https://studio.apollographql.com
